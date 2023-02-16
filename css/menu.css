@@ -1,0 +1,262 @@
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 23px;
+    margin-top: 20px;
+    position: absolute;
+    z-index: auto;
+    
+}
+/***************************** INCIO MENU ************************************/
+nav{
+    width: auto;
+    margin: auto;
+    height: 90px;
+    background-color: #000080;
+    font-size: 20px;
+    margin-top: 0px;
+    border-bottom: 4px solid #91201e;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    /*justify-content:space-around;*/
+    padding: 30px 10px 20px 10px ;
+    margin-left: 220px;
+    margin-top: -10px;
+    position: absolute;
+    
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 1px;
+    color:#fff;
+    text-decoration: none;
+    padding: 20px;
+}
+.menu-horizontal > li:hover{
+    background-color: rgb(68, 64, 64);
+    transition: .3s;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px ;
+    border-bottom: 2px solid rgb(228, 26, 26);
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 250px;
+    background-color: rgba(0,0,0,.5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.menu-vertical li a{
+    display: block;
+    color:white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+/******************************* FIN MENU *****************************************/
+section {
+    background: #D7E0F5;
+    width: auto;
+    height: 630px;
+    /*opacity: .1;*/
+}
+
+#contened {
+    /*background: #D7E0F5;*/
+    width: auto;
+    height: 330px;
+}
+
+#contened-2 {
+    background-image: url(../img/fondo/fondo.jpg);
+    width: auto;
+    height: 430px;
+}
+
+#contened-3 {
+    background: #ffffff;
+    width: auto;
+    height: 230px;
+}
+
+footer {
+    width: auto;
+    height: 120px;
+    background-color: #000080;
+}
+/***********************************************Bebidas***********************************************************/
+.bebidas{
+    width: 225px;
+    height: 183px;
+    padding: 30px;
+    border-radius: 6px;
+    
+}
+.bebida1{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 53px;
+    margin-top: 105px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida2{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 383px;
+    margin-top: 105px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida3{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 713px;
+    margin-top: 105px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida4{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 1024px;
+    margin-top: 105px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida5{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 53px;
+    margin-top: 550px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida6{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 383px;
+    margin-top: 550px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida7{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 713px;
+    margin-top: 550px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida8{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 1024px;
+    margin-top: 550px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida9{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 200px;
+    margin-top: 1000px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida10{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 583px;
+    margin-top: 1000px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+.bebida11{
+    width: 280px;
+    height: 380px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #ee7d48;
+    margin-left: 8px;
+    border-radius: 8px;
+    margin-left: 910px;
+    margin-top: 1000px;
+    position: absolute;
+    z-index: auto;
+    box-shadow: 2px 3px 2px #777;
+}
+/*********************Descripcion de las letras********************************************/
+.coifo{
+    color: #00000a;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4px;
+}
